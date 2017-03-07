@@ -16,7 +16,7 @@ Due to the sensitivity of this data it will not be published.  Mock data will be
 I built a multi-armed bandit engine that uses he Bayesian Bandit algorithm to optimize options.  The same test data will be used to compare results from my engine with results using the A/B testing method.
 
 #The Test
-Three price options will be tested to find the most profitable option.  The test data will be represented in the following way:
+Three price options will be tested to find the most profitable one to use.  The test data will be represented in the following way:
 
 ![TestData](images/TestData.png "TestData")
 
