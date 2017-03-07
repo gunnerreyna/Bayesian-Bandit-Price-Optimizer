@@ -13,10 +13,26 @@ Due to the sensitivity of this data it will not be published.  Mock data will be
  - Competitor data: Built a webscraper to capture competitor prices 
 
 #The Model
-The Bayesian Bandit algorithm will be used.  Results will be compared to A/B testing results under similar circumstances.
+I built a multi-armed bandit engine that uses he Bayesian Bandit algorithm to optimize options.  The same test data will be used to compare results from my engine with results using the A/B testing method.
 
 #The Test
 Three price options will be tested to find the most profitable option.  The test data will be represented in the following way:
 
-![ComputingTarget](/ComputingTarget.png?raw=true "ComputingTarget")
+![TestData](images/TestData.png "TestData")
+
+##AB Testing Results
+
+![ABTestingResults](images/ABTestingResults.png "ABTestingResults")
+
+##AB Bayesian Bandit Results
+
+![BayesianBanditProfitOptimizationResults](images/BayesianBanditProfitOptimizationResults.png "BayesianBanditProfitOptimizationResults")
+
+##SUMMARY OF RESULS
+![Summary](images/Summary.png "Summary")
+
+#Next Steps
+ - Accommodate changing conversion rates over time.
+ - Run a proof of concept to validate results
+
 
