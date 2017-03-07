@@ -28,7 +28,9 @@ Three price options will be tested to find the most profitable option.  The test
 
 ![BayesianBanditProfitOptimizationResults](images/BayesianBanditProfitOptimizationResults.png "BayesianBanditProfitOptimizationResults")
 
-##SUMMARY OF RESULS
+##SUMMARY OF RESULTS
+To summarize we learned the same thing from both methods - the $6 option is the most profitable.  The difference is what it cost us to learn this.  We lost out on $170 in profit utilizing the A/B Testing method.  But with the Bayesian Bandit method we only lost $15!
+
 ![Summary](images/Summary.png "Summary")
 
 #Next Steps
